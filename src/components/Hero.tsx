@@ -9,8 +9,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-            <span className="block">Donde el corte
-se vuelve</span>
+            <span className="block">Donde el corte se vuelve</span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-gray-800 to-gray-600">ARTE</span>
           </h1>
           
