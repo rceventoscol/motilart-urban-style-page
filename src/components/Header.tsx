@@ -21,11 +21,12 @@ const Header = () => {
       }`}
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="flex items-center space-x-2">
-          <div className="w-12 h-12 bg-white rounded-sm flex items-center justify-center">
-            <span className="font-bold text-black text-xl">M</span>
-          </div>
-          <span className="text-white font-bold text-xl tracking-wider">MOTILART</span>
+        <div className="flex items-center">
+          <img 
+            src="/lovable-uploads/d78b8e3e-a955-4ed6-8d88-281294231438.png" 
+            alt="MOTILART Logo" 
+            className="h-8 md:h-10 w-auto"
+          />
         </div>
         
         <nav className="hidden md:flex space-x-8">
