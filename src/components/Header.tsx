@@ -16,8 +16,8 @@ const Header = () => {
     <header 
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
         isScrolled 
-          ? "bg-black/90 backdrop-blur-md shadow-lg" 
-          : "bg-transparent"
+          ? "bg-white/95 backdrop-blur-md shadow-lg" 
+          : "bg-white/90"
       }`}
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -30,10 +30,10 @@ const Header = () => {
         </div>
         
         <nav className="hidden md:flex space-x-8">
-          <a href="#inicio" className="text-white hover:text-gray-300 transition-colors">Inicio</a>
-          <a href="#servicios" className="text-white hover:text-gray-300 transition-colors">Servicios</a>
-          <a href="#testimonios" className="text-white hover:text-gray-300 transition-colors">Testimonios</a>
-          <a href="#contacto" className="text-white hover:text-gray-300 transition-colors">Contacto</a>
+          <a href="#inicio" className="text-gray-800 hover:text-gray-600 transition-colors">Inicio</a>
+          <a href="#servicios" className="text-gray-800 hover:text-gray-600 transition-colors">Servicios</a>
+          <a href="#testimonios" className="text-gray-800 hover:text-gray-600 transition-colors">Testimonios</a>
+          <a href="#contacto" className="text-gray-800 hover:text-gray-600 transition-colors">Contacto</a>
         </nav>
 
         <a 

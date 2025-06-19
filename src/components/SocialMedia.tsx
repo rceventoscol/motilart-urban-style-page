@@ -3,14 +3,14 @@ import { Instagram, Facebook, MessageCircle } from "lucide-react";
 
 const SocialMedia = () => {
   return (
-    <section className="py-20 bg-gray-800">
+    <section className="py-20 bg-gray-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Síguenos
           </h2>
-          <div className="w-24 h-0.5 bg-white mx-auto mb-6"></div>
-          <p className="text-xl text-gray-400">
+          <div className="w-24 h-0.5 bg-gray-800 mx-auto mb-6"></div>
+          <p className="text-xl text-gray-600">
             Mantente al día con nuestros últimos trabajos y tendencias
           </p>
         </div>
@@ -45,7 +45,7 @@ const SocialMedia = () => {
         </div>
 
         <div className="text-center mt-8">
-          <p className="text-gray-400 mb-2">@motilart52</p>
+          <p className="text-gray-600 mb-2">@motilart52</p>
           <p className="text-gray-500">Motilart52</p>
         </div>
       </div>
