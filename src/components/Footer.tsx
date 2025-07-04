@@ -1,9 +1,6 @@
-
 import { MapPin, Phone, Instagram, Facebook } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-gray-900 text-white py-12">
+  return <footer className="text-white py-12 bg-zinc-950">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo and Brand */}
@@ -38,20 +35,10 @@ const Footer = () => {
           <div className="text-center md:text-right">
             <h3 className="font-bold text-lg mb-4">Síguenos</h3>
             <div className="flex justify-center md:justify-end space-x-4">
-              <a 
-                href="https://instagram.com/motilart52"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors duration-300"
-              >
+              <a href="https://instagram.com/motilart52" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
                 <Instagram size={24} />
               </a>
-              <a 
-                href="https://facebook.com/Motilart52"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors duration-300"
-              >
+              <a href="https://facebook.com/Motilart52" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">
                 <Facebook size={24} />
               </a>
             </div>
@@ -61,12 +48,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <div className="mb-4">
-            <a 
-              href="https://wa.me/573023374406"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 font-medium"
-            >
+            <a href="https://wa.me/573023374406" target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 font-medium">
               Reserva tu corte ahora
             </a>
           </div>
@@ -75,8 +57,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
