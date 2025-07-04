@@ -1,5 +1,4 @@
-
-import { Scissors, Users, Palette, Star, Sparkles } from "lucide-react";
+import { Scissors, Users, Palette, Star } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -22,11 +21,6 @@ const Services = () => {
       icon: Palette,
       title: "Tintura / Tratamientos",
       description: "Coloración profesional y cuidados especializados"
-    },
-    {
-      icon: Sparkles,
-      title: "Estilo Urbano Personalizado",
-      description: "Looks únicos que reflejan tu identidad"
     }
   ];
 
