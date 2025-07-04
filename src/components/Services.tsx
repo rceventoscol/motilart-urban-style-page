@@ -1,4 +1,5 @@
-import { Scissors, Users, Palette, Star } from "lucide-react";
+
+import { Scissors, User, Star, Palette } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -8,7 +9,7 @@ const Services = () => {
       description: "Técnicas modernas y clásicas adaptadas a tu estilo"
     },
     {
-      icon: Users,
+      icon: User,
       title: "Corte Femenino", 
       description: "Diseños únicos que realzan tu personalidad"
     },
@@ -37,13 +38,13 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {services.map((service, index) => (
             <div 
               key={index}
-              className="group bg-white p-8 rounded-lg hover:bg-gray-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl border border-gray-200"
+              className="group bg-white p-8 rounded-xl hover:bg-gray-50 transition-all duration-300 hover:scale-105 hover:shadow-2xl border border-gray-200"
             >
-              <div className="bg-gray-900 w-16 h-16 rounded-lg flex items-center justify-center mb-6 group-hover:bg-gray-800 transition-colors duration-300">
+              <div className="bg-gray-900 w-16 h-16 rounded-xl flex items-center justify-center mb-6 group-hover:bg-gray-800 transition-colors duration-300">
                 <service.icon className="text-white" size={32} />
               </div>
               
