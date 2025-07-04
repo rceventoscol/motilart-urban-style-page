@@ -48,9 +48,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <div className="mb-4">
-            <a href="https://wa.me/573023374406" target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 font-medium">
-              Reserva tu corte ahora
-            </a>
+            
           </div>
           <p className="text-gray-500 text-sm">
             © 2024 MOTILART. Todos los derechos reservados.
